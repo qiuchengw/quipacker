@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UIBase">
+      <UniqueIdentifier>{a7d97698-dc54-4e26-926c-5d7fb845bd0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIBase\behaviors">
+      <UniqueIdentifier>{42291449-2141-4918-ade2-fa4f06d0d53a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="QUITest.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QUITest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QUIApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QUITestx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QUIView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_aux.h">
+      <Filter>UIBase\behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UIBase\ui\htmlayout\behaviors\notifications.h">
+      <Filter>UIBase\behaviors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QUITest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QUIApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QUITestx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QUIView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\AppHelper.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\QBuffer.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\file\FileEnumerator.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\file\inifile.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\file\QFile.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\ECtrl.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\QApp.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\QConfig.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\QUIMgr.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\WndShadow.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\file\TextFile.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\crypt\CXUnzip.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\crypt\QDataEnDe.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\crypt\XUnzip.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\crypt\XZip.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\time\QTime.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\file\FileOper.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_accesskeys.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_actions.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_border_flasher.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_chart.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_clock.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_clock_graphin.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_clock2.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_collapsible_by_icon.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_colorpicker.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_command.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_editable_select.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_eximg.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_expandable_list.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_font_size.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_fontname.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_form.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_grid.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_gridselect.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_gripper.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_hover.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_hyperlink.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_inactiveprogress.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_lb_dialog.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_mouse_updown_capture.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_pagenav.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_path.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_popup.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_rtc_current_objects.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_scrol_buddy.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_scroller.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_select_buddy.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_select_checkmark.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_shellctrl.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_shellicon.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_sizer.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_splitter.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_star.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_tabs.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_tooltip.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_virtual_grid.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_xprogress.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_xtime.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\data_source_behavior.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\WndHelper.cpp">
+      <Filter>UIBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UIBase\ui\htmlayout\behaviors\behavior_scroll_indicator.cpp">
+      <Filter>UIBase\behaviors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QUITest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
